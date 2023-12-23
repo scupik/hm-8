@@ -1,0 +1,67 @@
+div>h3:first-child 
+{
+color:yellow(51, 0, 255);
+}
+
+#greycol {
+    color:black;
+}
+
+div>p:first-child 
+{
+color:blue;
+}
+
+div~p {
+    color:red;
+}
+
+.yellow {
+    color:green;
+}
+ 
+li:nth-child(2n) {
+    background-color:blueviolet;
+}
+
+/*  уроки */
+.lessons ul:hover {
+    background-color:aqua;
+  }
+  
+  .lessons ul li:first-child {
+    font-weight: bold;
+  }
+  
+  .lessons ul li:last-child {
+    font-style: italic;
+  }
+  
+  .lessons ul li:nth-child(odd) {
+    color:cadetblue;
+  }
+  
+  .lessons ul li:nth-child(even) {
+    color:cornflowerblue;
+  }
+  
+  /* Структурні псевдокласи */
+  .lessons ul:first-of-type {
+    border: 1px solid green;
+  }
+  
+  .lessons ul:last-of-type {
+    border: 1px solid yellow;
+  }
+  
+  .lessons ul:nth-of-type(3) {
+    border: 1px solid orange;
+  }
+  
+  .lessons ul:nth-last-of-type(2) {
+    border: 1px solid blue;
+  }
+  
+  .lessons ul:nth-child(2n+1) {
+    transform: scale(1.1);
+  }
